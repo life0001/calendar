@@ -1,0 +1,86 @@
+.cont_mid .Order_Management{border-top:4px solid #f2f2f2; width:1059px; margin-top:50px; font-size:12px;}
+.cont_mid .Order_Management .ml0{margin-left:0;}
+.Order_Management .mr20{ margin-right:20px;}
+.Order_Management .fontBlue{color:#0357d6;}
+.Order_Management .fontRed{color:#ff5a5f;}
+
+/*订单管理*/
+.Order_Management .OM_nav{color: #666; margin-top:-25px;}
+.Order_Management .OM_input{background-color: #fff; height:236px; margin-top:9px; padding:0 30px; padding-top:15px; margin-bottom:18px;}
+.Order_Management .OMqijian{height:30px; line-height: 30px; margin-left:14px;}
+.OMqijian a{color:#999; float:left; margin-left:10px;}
+.OMqijian span{color:#666;}
+.OMqijian .cur{color:#ff5a5f;}
+
+.OM_input .pull-down{position:relative; width:113px; height:30px; color:#666; border:1px solid #999;}
+#J_DepDate, #J_DepDate2{margin-left:14px;}
+.OM_input input[type="text"]{width:200px; height:30px; border:1px solid #999; line-height: 28px; padding:0 5px;}
+.pull-down .list{padding-left:10px; line-height: 28px;}
+.pull-down s{position:absolute;background:url(../images/ubt_icons.png) no-repeat -28px -1px; width:9px; height:5px; right:10px; top:40%;}
+
+.OM_input .OM_inputLi2{border-top:1px dashed #ccc; border-bottom:1px dashed #ccc; padding-bottom: 17px; margin-top:16px;}
+.OM_inputLi2 dl{ width:876px; margin:0 auto;}
+.OM_inputLi2 dd{float:left; margin-top:15px; margin-left:15px;}
+.OM_inputLi2 label{width:72px; height:30px; line-height:30px; text-align: right; display:inline-block; margin-right:10px; color:#666;}
+
+.OM_input .OM_inputLi3{width:920px; height:32px; line-height:32px; margin:15px auto 34px auto;}
+.OM_inputLi3 .OM_inputLi2BTN{width:612px;}
+.OM_inputLi2BTN a{float:left; color:#999; margin-right:28px;}
+.OM_inputLi2BTN span{color:#666;}
+.OM_inputLi2BTN .cur{color:#ff5a5f;}
+.OM_inputLi3 button{width:140px; height:32px; background-color: #4d92f9; color:#fff; font-size:14px; cursor:pointer;}
+/*地图*/
+#J_DepDate{position:relative;}
+/*订单信息*/
+.orderInfo table{color:#333; width:100%; border:solid #e6e6e6; border-width:1px 1px 1px; background-color: #fff;}
+.orderInfo thead tr{background-color:#f2f2f2; color:#666; height:38px; border-left:1px solid #e6e6e6;}
+.orderInfo tbody td{text-align: center; border-left:1px solid #e6e6e6; border-top:1px solid #e6e6e6;  line-height: 22px;}
+.orderInfo .orderInfo_td1{width:90px; height:88px;}
+.orderInfo .orderInfo_td2, .orderInfo .orderInfo_td3{text-align: left;}
+.orderInfo_td2 p, .orderInfo_td3 p{padding:0 12px;}
+.orderInfo .orderInfo_td2{width:190px;}
+.orderInfo .orderInfo_td3{width:212px;}
+.orderInfo .orderInfo_td4{width:72px;}
+.orderInfo .orderInfo_td5{width:87px;}
+.orderInfo .orderInfo_td6{width:118px;}
+.orderInfo .orderInfo_td7{width:70px;}
+.orderInfo .orderInfo_td8{width:60px;}
+
+
+/*底部分页*/
+.orderInfo .orderInfo_pages{text-align: right; margin-top:10px; margin-bottom:27px;}
+.orderInfo_pages a{float:left;  height:27px; line-height: 27px; margin-right:5px; cursor:pointer; background-color: #fff;}
+.orderInfo_pages .orderInfo_toPage{width:27px; height:27px; line-height: 27px; color:#fff; background-color: #3072ee; text-align: center;}
+.orderInfo_pages .pages_prev{width:67px; padding-right:10px;}
+.orderInfo_pages .pages_next{width:67px; text-align: center; margin-right:0;}
+.orderInfo_pages .pages_prev:before{content:'';width:4px; height:7px; display:inline-block; background: url(../images/orderInfo_arrowPrev.jpg) no-repeat; margin-right:5px;}
+.orderInfo_pages .pages_next:after{content:'';width:4px; height:7px; display:inline-block; background: url(../images/orderInfo_arrowNext.jpg) no-repeat; margin-left:5px;}
+.orderInfo_pages p .PNarrow{ border:1px solid #dbdbdb;}
+.orderInfo_pages p .cur{color:#ff5a5f; border:1px solid #ff5a5f;}
+
+
+/*退款管理页面*/
+
+/*#Order_Management2 .OM_input{background-color: #fff; height:188px; margin-bottom:18px; border:1px solid #e6e6e6; border-top:none;}*/
+#Order_Management2 .OMqijian{height:30px; line-height: 30px; margin-left:14px;}
+#OM2_input li:first-child input{margin-left:0}
+#OM2_input{background-color: #fff; height:172px; margin-bottom:18px; border:1px solid #e6e6e6; border-top:none; padding:0;}
+
+
+.OM_input .OM2_inputLi2{margin-top:10px; color:#666;}
+.OM2_inputLi2 dd{float:left; margin-top:15px; margin-left:30px;}
+.OM2_inputLi2 label{width:84px; height:30px; line-height:30px; text-align: right; display:inline-block; margin-right:10px;}
+.OM2_inputLi2 dl{padding-left:10px;}
+.OM_input .OM2_inputLi3{width:1014px; height:32px; line-height:32px; margin:15px auto 34px auto; border-top:1px dashed #ccc; padding-top: 15px;  padding-left:10px;}
+.OM2_inputLi3 .OM2_inputLi2BTN{width:612px;}
+.OM2_inputLi3 button{width:140px; height:32px; background-color: #4d92f9; color:#fff; font-size:14px; cursor:pointer;}
+.OM2_inputLi2BTN a{float:left; color:#999; margin-right:28px;}
+.OM2_inputLi2BTN span{color:#666;}
+.OM2_inputLi2BTN .cur{color:#ff5a5f;}
+
+.OM2_inputLi2 .date2_start, .OM_inputLi2 .date2_over{width:90px; height:30px; line-height: 30px;}
+.OM2_inputLi2 .OM2_date{float:left;}
+.OM2_inputLi2 .span_{height:30px; line-height:30px; margin:0 5px;}
+.OM2_date input[type="text"]{width:90px}
+.orderInfo .orderInfo2_td7{width:155px;}
+.orderInfo .orderInfo2_td8{width:80px;}

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <title>游百通个人中心 退款管理- 游大大旅游网</title>
+        <link rel="stylesheet" type="text/css" href="css/base.css" />
+        <link rel="stylesheet" type="text/css" href="css/ubaitong.css"/>
+        <link rel="stylesheet" type="text/css" href="css/ubt_dindan.css"/>
+        <script type="text/javascript" src="script/jquery.1.9.1.js"></script>
+        <script type="text/javascript" src="script/yui-min.js"></script>
+        <script type="text/javascript" src="script/calendar.js"></script>
+        <script type="text/javascript" src="script/ubt_dindan.js"></script>
+    </head>
+    <body>
+        <!--游百通头部登录条-->
+        <div class="ubt-head">
+            <div class="cont_mid">
+                <div class="fl headtopLeft">
+                    <span>你好，公共账号</span>
+                    <span>|</span>
+                    <span><a href="" target="">[退出]</a></span>
+                    <span>欢迎访问游百通分销平台</span>
+                </div>
+                <div class="fr headtopRight">
+                    <a href="" target="">我的游百通</a>
+                    <a href="" target="">帮助中心</a>
+                    <a href="" target="">收藏</a>
+                </div>
+            </div>
+        </div>
+        <!--游百通头部登录条end-->
+        <!--游百通头部-->
+        <div class="ubt-headsec">
+            <div class="cont_mid">
+                <img src="images/ubt_logo.jpg" alt="">
+                <a href=" " class="ubt_hotline" target="">
+                    <img src="images/ubt_hotline.png" alt="">
+                </a>
+            </div>
+        </div>
+        <!--游百通头部end-->
+        <!--游百通中间内容-->
+        <div class="ubt-pccont">
+            <div class="cont_mid clearfix">
+                <!--个人中心左侧导航-->
+                <div class="fl pc-navig orders-ret">
+                    <div class="titl-nav">个人中心</div>
+                    <div>
+                        <p>订单管理<em class="ubticon arowup"></em></p>
+                        <ul>
+                            <li>门票订单管理</li>
+                            <li>退款管理</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p>账户管理<em class="ubticon arowup"></em></p>
+                        <ul>
+                            <li>账户管理</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p>系统管理<em class="ubticon arowup"></em></p>
+                        <ul>
+                            <li>商户信息</li>
+                            <li>密码管理</li>
+                        </ul>
+                    </div>
+                </div>
+                <!--个人中心左侧导航end-->
+                <!--退款管理-->
+                <div class="fr Order_Management"id="Order_Management2">
+                    <p class="OM_nav"><span>订单管理</span>&gt;<span>退款管理</span></p>
+                    <!--表格填写区-->
+                    <div class="OM_input" id="OM2_input">
+                        <ul>
+                            <li class="OM2_inputLi2">
+                                <dl class="clearfix">
+                                    <dd class="ml0"><label for="input_txt1">退款单号：</label><input type="text" id="input_txt1"/></dd>
+                                    <dd><label for="input_txt2">订单编号：</label><input type="text" id="input_txt2"/></dd>
+                                    <dd><label for="input_txt3">游客姓名：</label><input type="text" id="input_txt3"/></dd>
+                                    <dd class="ml0"><label for="input_txt4">游客手机号：</label><input type="text" id="input_txt4"/></dd>
+                                    <dd class="clearfix">
+                                        <label class="fl">退款申请时间：</label>
+                                        <div class="OM2_date date2_start" id="J_DepDate3"><input type="text" class="startDate"/></div>
+                                        <span class="fl span_">--</span>
+                                        <div class="OM2_date date2_over" id="J_DepDate4"><input type="text" class="startDate"/></div>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li class="OM2_inputLi3 clearfix">
+                                <p class="OM2_inputLi2BTN clearfix fl">
+                                    <span class="fl">订单状态： </span>
+                                    <a href="javascript:;">退款待审核</a>
+                                    <a href="javascript:;" class="cur">已退款</a>
+                                    <a href="javascript:;">退款被驳回</a>
+                                </p>
+                                <button class="fl mr20">查询</button>
+                                <button class="fl">导出（二期）</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--订单信息-->
+                    <div class="orderInfo">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>订单编号</th>
+                                    <th>产品信息</th>
+                                    <th>游客信息</th>
+                                    <th>退款数量</th>
+                                    <th>退款金额</th>
+                                    <th>退款状态</th>
+                                    <th>退款申请时间</th>
+                                    <th>操作人</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="orderInfo_td1 fontBlue">1415583</td>
+                                    <td class="orderInfo_td2">
+                                        <p>产品：<span class="fontBlue">XXX景区成人票</span></p>
+                                        <p>预订数量：<span class="fontRed">2</span></p>
+                                        <p>下单时间：2016-02-14 12:42</p>
+                                    </td>
+                                    <td class="orderInfo_td3">
+                                        <p>姓名：XXX</p>
+                                        <p>手机号：13011112222</p>
+                                        <p>身份证号：310100198806000003</p>
+                                    </td>
+                                    <td class="orderInfo_td4 fontRed">2</td>
+                                    <td class="orderInfo_td5 fontRed"><strong>￥340</strong></td>
+                                    <td class="orderInfo_td5">
+                                        <p>已&nbsp;&nbsp;&nbsp;退：<span class="fontRed">2</span></p>
+                                        <p>退款中：<span class="fontRed">2</span></p>
+                                    </td>
+                                    <td class="orderInfo2_td7">2016-02-14 12:42</td>
+                                    <td class="orderInfo2_td8">张XX</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td class="orderInfo_td1 fontBlue">1415583</td>
+                                    <td class="orderInfo_td2">
+                                        <p>产品：<span class="fontBlue">XXX景区成人票</span></p>
+                                        <p>预订数量：<span class="fontRed">2</span></p>
+                                        <p>下单时间：2016-02-14 12:42</p>
+                                    </td>
+                                    <td class="orderInfo_td3">
+                                        <p>姓名：XXX</p>
+                                        <p>手机号：13011112222</p>
+                                        <p>身份证号：310100198806000003</p>
+                                    </td>
+                                    <td class="orderInfo_td4 fontRed">2</td>
+                                    <td class="orderInfo_td5 fontRed"><strong>￥340</strong></td>
+                                    <td class="orderInfo_td5">
+                                        <p>已&nbsp;&nbsp;&nbsp;退：<span class="fontRed">2</span></p>
+                                        <p>退款中：<span class="fontRed">2</span></p>
+                                    </td>
+                                    <td class="orderInfo_td7">2016-02-14 12:42</td>
+                                    <td class="orderInfo_td8">张XX</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td class="orderInfo_td1 fontBlue">1415583</td>
+                                    <td class="orderInfo_td2">
+                                        <p>产品：<span class="fontBlue">XXX景区成人票</span></p>
+                                        <p>预订数量：<span class="fontRed">2</span></p>
+                                        <p>下单时间：2016-02-14 12:42</p>
+                                    </td>
+                                    <td class="orderInfo_td3">
+                                        <p>姓名：XXX</p>
+                                        <p>手机号：13011112222</p>
+                                        <p>身份证号：310100198806000003</p>
+                                    </td>
+                                    <td class="orderInfo_td4 fontRed">2</td>
+                                    <td class="orderInfo_td5 fontRed"><strong>￥340</strong></td>
+                                    <td class="orderInfo_td5">
+                                        <p>已&nbsp;&nbsp;&nbsp;退：<span class="fontRed">2</span></p>
+                                        <p>退款中：<span class="fontRed">2</span></p>
+                                    </td>
+                                    <td class="orderInfo_td7">2016-02-14 12:42</td>
+                                    <td class="orderInfo_td8">张XX</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td class="orderInfo_td1 fontBlue">1415583</td>
+                                    <td class="orderInfo_td2">
+                                        <p>产品：<span class="fontBlue">XXX景区成人票</span></p>
+                                        <p>预订数量：<span class="fontRed">2</span></p>
+                                        <p>下单时间：2016-02-14 12:42</p>
+                                    </td>
+                                    <td class="orderInfo_td3">
+                                        <p>姓名：XXX</p>
+                                        <p>手机号：13011112222</p>
+                                        <p>身份证号：310100198806000003</p>
+                                    </td>
+                                    <td class="orderInfo_td4 fontRed">2</td>
+                                    <td class="orderInfo_td5 fontRed"><strong>￥340</strong></td>
+                                    <td class="orderInfo_td5">
+                                        <p>已&nbsp;&nbsp;&nbsp;退：<span class="fontRed">2</span></p>
+                                        <p>退款中：<span class="fontRed">2</span></p>
+                                    </td>
+                                    <td class="orderInfo_td7">2016-02-14 12:42</td>
+                                    <td class="orderInfo_td8">张XX</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td class="orderInfo_td1 fontBlue">1415583</td>
+                                    <td class="orderInfo_td2">
+                                        <p>产品：<span class="fontBlue">XXX景区成人票</span></p>
+                                        <p>预订数量：<span class="fontRed">2</span></p>
+                                        <p>下单时间：2016-02-14 12:42</p>
+                                    </td>
+                                    <td class="orderInfo_td3">
+                                        <p>姓名：XXX</p>
+                                        <p>手机号：13011112222</p>
+                                        <p>身份证号：310100198806000003</p>
+                                    </td>
+                                    <td class="orderInfo_td4 fontRed">2</td>
+                                    <td class="orderInfo_td5 fontRed"><strong>￥340</strong></td>
+                                    <td class="orderInfo_td5">
+                                        <p>已&nbsp;&nbsp;&nbsp;退：<span class="fontRed">2</span></p>
+                                        <p>退款中：<span class="fontRed">2</span></p>
+                                    </td>
+                                    <td class="orderInfo_td7">2016-02-14 12:42</td>
+                                    <td class="orderInfo_td8">张XX</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!--底部分页-->
+                        <div class="orderInfo_pages clearfix">
+                            <p class="fr">
+                                <a class="pages_prev PNarrow cur">上一页</a>
+                                <a class="orderInfo_toPage">1</a>
+                                <a class="pages_next PNarrow">下一页</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--游百通中间内容end-->
+        <!--游百通尾部-->
+        <div class="ubt-footer">
+            <div class="cont_mid">
+                <div class="ubtfooter_con">
+                    <a href="" target="_blank">游百通首页</a>
+                    <span>|</span>
+                    <a href="" target="_blank">关于游百通</a>
+                    <span>|</span>
+                    <a href="" target="_blank">联系我们</a>
+                    <span>|</span>
+                    <a href="" target="_blank">站点地图</a>
+                    <span>|</span>
+                    <a href="" target="_blank">诚聘英才</a>
+                    <span>|</span>
+                    <a href="" target="_blank">法律声明</a>
+                    <span>|</span>
+                    <a href="" target="_blank">意见投诉</a>
+                    <span>|</span>
+                    <a href="" target="_blank">友情链接</a>
+                </div>
+            </div>
+        </div>
+        <!--游百通尾部end-->
+    </body>
+</html>
